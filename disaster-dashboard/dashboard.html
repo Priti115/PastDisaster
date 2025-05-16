@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Real-Time Disaster Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>🌍 Real-Time Disaster Dashboard</h1>
+  <p id="last-updated">Last updated: --</p>
+  <button id="refresh-btn">🔄 Refresh Now</button>
+  <table>
+    <thead>
+      <tr>
+        <th>Rank</th>
+        <th>Date</th>
+        <th>Location</th>
+        <th>Country</th>
+        <th>Cause</th>
+        <th>Time</th>
+      </tr>
+    </thead>
+    <tbody id="disaster-data">
+      <tr>
+        <td colspan="6">Loading data...</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
